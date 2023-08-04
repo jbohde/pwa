@@ -17,7 +17,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Minorly Unique Text Editor",
+        title: "J.A.T.E",
       }),
       new InjectManifest({
         swSrc: "./src-sw.js",
@@ -26,8 +26,8 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "Minorly Unique Text Editor",
-        short_name: "M.U.T.E.",
+        name: "Just Another Text Editor",
+        short_name: "J.A.T.E",
         description: "Takes notes with JavaScript syntax highlighting!",
         background_color: "#225ca3",
         theme_color: "#225ca3",
